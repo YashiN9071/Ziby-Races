@@ -10,7 +10,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    screen.fill(pygame.Color("white"))
+    screen.fill(pygame.Color("black"))
     pygame.display.flip()
     clock.tick(fps)
 
